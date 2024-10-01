@@ -24,25 +24,25 @@ async function checkWeather(city) {
    
   
     if(data.weather[0].main == "Clouds"){
-      weatherIcon.src = "/assets/clouds.png";
+      weatherIcon.src = "https://i.postimg.cc/LXTH5xrW/clouds.png";
     }
     else if(data.weather[0].main == "Clear"){
-      weatherIcon.src = "/assets/clear.png";
+      weatherIcon.src = "https://i.postimg.cc/nhCbYRB7/clear.png";
     }
     else if(data.weather[0].main == "Rain"){
-      weatherIcon.src = "/assets/rain.png";
+      weatherIcon.src = "https://i.postimg.cc/zGTzgDh6/rain.png";
   }
   else if(data.weather[0].main == "Drizzle"){
-    weatherIcon.src = "/assets/drizzle.png";
+    weatherIcon.src = "https://i.postimg.cc/PxBBtYq7/drizzle.png";
   }
   else if(data.weather[0].main == "Mist"){
-    weatherIcon.src = "/assets/mist.png";
+    weatherIcon.src = "https://i.postimg.cc/Wz4LYThN/mist.png";
   }
   else if(data.weather[0].main == "Snow"){
-    weatherIcon.src = "/assets/snow.png";
+    weatherIcon.src = "https://i.postimg.cc/kMwf7Whh/snow.png";
   }
   else if(data.weather[0].main == "Thunderstorm"){
-    weatherIcon.src = "/assets/thunderstorm.png";
+    weatherIcon.src = "https://i.postimg.cc/0jD5D5gj/thunderstorm.png";
   }
   
   
