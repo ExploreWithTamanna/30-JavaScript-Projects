@@ -41,6 +41,10 @@ async function checkWeather(city) {
   else if(data.weather[0].main == "Snow"){
     weatherIcon.src = "/assets/snow.png";
   }
+  else if(data.weather[0].main == "Thunderstorm"){
+    weatherIcon.src = "/assets/thunderstorm.png";
+  }
+  
   
   document.querySelector(".weather").style.display = "flex";
   document.querySelector(".details").style.display = "flex";
