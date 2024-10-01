@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1d1f;
+}
+.card{
+width: 300px;
+background: linear-gradient(to bottom right, #48CDAF, #455472);
+padding: 20px;
+border-radius: 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #fff;
+    color: #000;
+}
+.search button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+.search button img{
+    width: 15px;
+    height: 18px;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.weather img{
+    height:150px;
+    width: 150px;
+
+}
+.weather .icon-name{
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+}
+.weather h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+.weather h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.col-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.col-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.details .humidity-icon {
+    width: 25px;
+    height: 25px;
+}
+.details .wind-icon {
+    width: 25px;
+    height: 25px;
+}
+.humidity-details, .wind-details{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+}
+.humidity, .wind{
+    font-size: 22px;
+}
+.p{
+    font-size: 14px;
+}
+.weather{
+    display: none;
+}
+.details{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: red;
+    display: none;
+}
